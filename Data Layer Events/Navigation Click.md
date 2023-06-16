@@ -15,16 +15,13 @@ dataLayer.push({
         "author_id": "<author_id>",
         "author_type": "<author_type>",
         "center": "<center>",
-        "content_type": "<content_type>",
         "format": "<format>",
         "historical_url": "<historical_url>",
-        "interactive": <interactive>,
         "language": "<language>",
         "original_post_id": "<original_post_id>",
         "parent": "<parent>",
         "post_id": "<post_id>",
         "primary_topic": "<primary_topic>",
-        "program": "<program>",
         "project": "<project>",
         "publish_date": "<publish_date>",
         "region": "<region>",
@@ -48,16 +45,13 @@ dataLayer.push({
 |event_data.author_id|string|Author ID||||||||
 |event_data.author_type|string|What type of author||||||||
 |event_data.center|string|Center||||||||
-|event_data.content_type|string|Type of content||||||||
 |event_data.format|string|Format||||||||
 |event_data.historical_url|string|Historical URL||||||||
-|event_data.interactive|boolean|Is the content interactive or not.||||||||
 |event_data.language|string|Language of the content||||||||
 |event_data.original_post_id|string|Original Post ID||||||||
 |event_data.parent|string|Parent||||||||
 |event_data.post_id|string|Post ID||||||||
 |event_data.primary_topic|string|Primary Topic||||||||
-|event_data.program|string|Program||||||||
 |event_data.project|string|Project||||||||
 |event_data.publish_date|string|Publish Date||||||||
 |event_data.region|string|Region||||||||
