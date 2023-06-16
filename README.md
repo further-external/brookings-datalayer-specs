@@ -10,7 +10,7 @@
 <p>In Google Tag Manager, click <strong>Workspace</strong></p>
 </li>
 <li>
-<p>Near the top right corner of the window, find your container ID, formatted as "GTM-XXXXXX". Click the container ID to launch the Install Tag Manager modal.</p>
+<p>Near the top right corner of the window, find your container ID, formatted as "GTM-WHWFZ5". Click the container ID to launch the Install Tag Manager modal.</p>
 </li>
 <li>
 <p>Copy and paste the code snippets into your website as instructed in the Install Tag Manager box.</p>
