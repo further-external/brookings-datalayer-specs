@@ -5,11 +5,12 @@
 ## Javascript Code
 ```js
 window.dataLayer = window.dataLayer || [];
+dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
-  "event": "begin_checkout",
+  "event": "donation_started",
   "detailed_event": "Donation Started",
-    "ecommerce": {
-        "type": "<type>"
+    "event_data": {
+        "donation_started": <donation_started>
     }
 });
 ```
@@ -18,7 +19,7 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|ecommerce.type|string|Captures the type of donation made \(i.e. general, tribute\).|Tribute, General, Fundraiser|||||||
+|event_data.donation_started|boolean|Donation Started||||||||
 
 
 
