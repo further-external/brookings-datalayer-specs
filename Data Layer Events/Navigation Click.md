@@ -18,6 +18,7 @@ dataLayer.push({
         "format": "<format>",
         "historical_url": "<historical_url>",
         "language": "<language>",
+        "module_name": "<module_name>",
         "original_post_id": "<original_post_id>",
         "parent": "<parent>",
         "post_id": "<post_id>",
@@ -48,6 +49,7 @@ dataLayer.push({
 |event_data.format|string|Format||||||||
 |event_data.historical_url|string|Historical URL||||||||
 |event_data.language|string|Language of the content||||||||
+|event_data.module_name|string|Module Name||||||||
 |event_data.original_post_id|string|Original Post ID||||||||
 |event_data.parent|string|Parent||||||||
 |event_data.post_id|string|Post ID||||||||
