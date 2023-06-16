@@ -35,13 +35,13 @@
 <p>Events that occur outside of the page load sequence should be pushed onto the data layer as they occur.</p>
 <h2 id="data-layer">When to Trigger Custom Events</h2>
 <p>Data Layer events below should be fired:</p>
-<p><strong>contact_us</strong>: when users click any of the links to contact an expert (such as email, social, or download cv)</p>
-<p><strong>content_interaction</strong>: when users click on any CTA or links to download, print, or share content posts</p>
-<p><strong>register_event</strong>: when users click CTA to start an event or webinar registration.&nbsp;</p>
-<p><strong>donation_click</strong>: when users click CTA to start the donation form</p>
-<p><strong>interactive_click</strong>: when users click on any elements of the interactives (if not already tracked using Data Wrapper's integration)</p>
-<p><strong>navigation_click</strong>: when users click on any links on content navs such as primary and secondary navs, topics, or content modules on the homepage.</p>
-<p><strong>sign_up</strong>: when users click CTA to complete newsletter sign up</p>
+<p><strong>Contact Us Completed</strong>: when users click any of the links to contact an expert (such as email, social, or download cv)</p>
+<p><strong>Content INteraction</strong>: when users click on any CTA or links to download, print, or share content posts</p>
+<p><strong>Register Event</strong>: when users click CTA to start an event or webinar registration.&nbsp;</p>
+<p><strong>Donation Started</strong>: when users click CTA to start the donation form</p>
+<p><strong>CTA Link Clicked</strong>: when users click on any elements of the interactives (if not already tracked using Data Wrapper's integration)</p>
+<p><strong>Navigation Click</strong>: when users click on any links on content navs such as primary and secondary navs, topics, or content modules on the homepage.</p>
+<p><strong>Sign Up</strong>: when users click CTA to complete newsletter sign up</p>
 <p>&nbsp;</p>
 <h2 id="questionscomments">Questions/Comments</h2>
 <p>For any questions or comments, please contact&nbsp;jerry.bennett@searchdiscovery.com.</p>
