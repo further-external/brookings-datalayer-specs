@@ -21,7 +21,7 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|event_data.event_name|string|Event Name||||||||
+|event_data.event_name|string|Name of event user is trying to register to attend|Asylum in Europe: Can the Ukraine response shape a better policy approach?|||||||
 |event_data.identifier|string|Captures the ID associated with exit links used. |act now, cancel, ok, 3456, 8765|||||||
 
 

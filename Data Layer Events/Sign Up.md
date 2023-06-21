@@ -21,7 +21,7 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|event_data.program|string|Program||||||||
+|event_data.program|string|Captures the research program for the content|Global Economy and Development|||||||
 
 
 
