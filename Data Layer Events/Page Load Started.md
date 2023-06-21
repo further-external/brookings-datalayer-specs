@@ -39,7 +39,6 @@ dataLayer.push({
         "word_count": "<word_count>"
     },
     "page_data": {
-        "country": "<country>",
         "language": "<language>",
         "name": "<name>",
         "page_location": "<page_location>"
