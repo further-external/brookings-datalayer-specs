@@ -21,7 +21,7 @@ dataLayer.push({
         "historical_url": "<historical_url>",
         "identifier": "<identifier>",
         "interactive": "<interactive>",
-        "interactive_name": "<interactive_name",
+        "interactive_name": "<interactive_name>",
         "interactive_type": "<interactive_type>",
         "language": "<language>",
         "original_post_id": "<original_post_id>",
