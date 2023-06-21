@@ -15,6 +15,7 @@ dataLayer.push({
         "author_id": "<author_id>",
         "content_type": "<content_type>",
         "date_published": "<date_published>",
+        "event_count": "<event_count>",
         "format": "<format>",
         "interactive": <interactive>,
         "language": "<language>",
