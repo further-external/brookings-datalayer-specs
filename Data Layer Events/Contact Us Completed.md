@@ -21,7 +21,7 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|event_data.author|string|Author||||||||
+|event_data.author|string|The expert\(s\) who have created the content; can include a comma separated list of authors|Sandra Rozo, Hernan Winkler|||||||
 |event_data.contact_purpose|string|Captures the reason that a visitor submitted a Contact Us form.|General Inquiry, Order Status, Legal, Other|||||||
 |event_data.method|string|Captures the website method \(i.e. search, top nav\) used to find each product.|email, facebook, twitter|||||||
 
