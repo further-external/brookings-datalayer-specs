@@ -10,7 +10,7 @@
 <p>In Google Tag Manager, click <strong>Workspace</strong></p>
 </li>
 <li>
-<p>Near the top right corner of the window, find your container ID, formatted as "GTM-XXXXXX". Click the container ID to launch the Install Tag Manager modal.</p>
+<p>Near the top right corner of the window, find your container ID, formatted as "GTM-WHWFZ5". Click the container ID to launch the Install Tag Manager modal.</p>
 </li>
 <li>
 <p>Copy and paste the code snippets into your website as instructed in the Install Tag Manager box.</p>
@@ -38,8 +38,7 @@
 <p><strong>contact_us</strong>: when users click any of the links to contact an expert (such as email, social, or download cv)</p>
 <p><strong>content_interaction</strong>: when users click on any CTA or links to download, print, or share content posts</p>
 <p><strong>register_event</strong>: when users click CTA to start an event or webinar registration.&nbsp;</p>
-<p><strong>donation_click</strong>: when users click CTA to start the donation form</p>
-<p><strong>interactive_click</strong>: when users click on any elements of the interactives (if not already tracked using Data Wrapper's integration)</p>
+<p><strong>interactive_view</strong>: when users view an interactives (if not already tracked using Data Wrapper's integration)</p>
 <p><strong>navigation_click</strong>: when users click on any links on content navs such as primary and secondary navs, topics, or content modules on the homepage.</p>
 <p><strong>sign_up</strong>: when users click CTA to complete newsletter sign up</p>
 <p>&nbsp;</p>
