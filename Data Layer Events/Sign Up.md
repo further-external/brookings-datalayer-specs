@@ -10,6 +10,7 @@ dataLayer.push({
   "event": "sign_up",
   "detailed_event": "Sign Up",
     "event_data": {
+        "event_count": "<event_count>",
         "program": "<program>"
     }
 });
