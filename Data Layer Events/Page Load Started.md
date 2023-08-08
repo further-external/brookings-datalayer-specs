@@ -19,7 +19,6 @@ dataLayer.push({
         "chart_id": "<chart_id>",
         "content_type": "<content_type>",
         "email_subscribers": <email_subscribers>,
-        "format": "<format>",
         "historical_url": "<historical_url>",
         "interactive": <interactive>,
         "original_post_id": "<original_post_id>",
@@ -58,7 +57,6 @@ dataLayer.push({
 |event_data.chart_id|string|From Data Wrapper||||||||
 |event_data.content_type|string|Captures the content category like post, essay, or research|post|||||||
 |event_data.email_subscribers|integer|Boolean value to segment users who have subscribed to a newsletter|yes|||||||
-|event_data.format|string|Post type|Page, Landing Page, Article, Event, Collection, Book and News|||||||
 |event_data.historical_url|string|URL of post from historical site|\/research\/what-caused-the-u-s-pandemic-era-inflation\/|||||||
 |event_data.interactive|boolean|Whether it is interactive content|Yes, No|||||||
 |event_data.original_post_id|string|Original Post ID from historical site|20619|||||||
@@ -76,7 +74,6 @@ dataLayer.push({
 |event_data.topic|string|List of comma separated themes that can be shared between programs|Colombia, Global Economy|||||||
 |event_data.type|string|Type of post|Commentary, Research|||||||
 |event_data.word_count|string|Total word count for content|389|||||||
-|page_data.country|string|The country associated with the current page.|US, CA, FR, UK|||||||
 |page_data.language|string|The language of the current page, usually pulled from the &lt;html&gt; tag lang attribute.|en-us, en-gb, ch-cn, fr-ca, fr-fr|||||||
 |page_data.name|string|Captures the name of the page the user is on|product - XYZ123, Mens - Tops - Sweaters, Order Confirmation|||||||
 |page_data.page_location|string|The URL of the page currently being viewed. This value will include the full, unaltered URL of the page\/screen the user is currently viewing, including query parameters, fragments, etc., for example https:\/\/www.example.com\/home?user=true&audience=test\#aboutus.|https:\/\/www.example.com\/home?user=true&audience=test\#aboutus|||||||
