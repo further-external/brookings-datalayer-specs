@@ -10,7 +10,7 @@ dataLayer.push({
   "event": "sign_up",
   "detailed_event": "Sign Up",
     "event_data": {
-        "event_count": "<event_count>",
+        "event_count": <event_count>,
         "newsletter_name": "<newsletter_name>",
         "program": "<program>"
     }
@@ -21,6 +21,8 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|event_data.event_count|integer|Increments newsletter sign-ups|1||||1|1||
+|event_data.newsletter_name|string|Name of Brookings Institution Newsletter|governance studies|||||||
 |event_data.program|string|Captures the research program for the content|Global Economy and Development|||||||
 
 
