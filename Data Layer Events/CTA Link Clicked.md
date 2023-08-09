@@ -7,22 +7,20 @@
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
-  "event": "interactive_view",
-  "detailed_event": "Interactive View",
+  "event": "interactive_click",
+  "detailed_event": "CTA Link Clicked",
     "event_data": {
-        "archived": "<archived>",
+        "archived": <archived>,
         "author": "<author>",
         "author_id": "<author_id>",
         "center": "<center>",
-        "chart_name": "<chart_name>",
         "chart_id": "<chart_id>",
         "content_type": "<content_type>",
+        "email_subscribers": <email_subscribers>,
         "format": "<format>",
         "historical_url": "<historical_url>",
         "identifier": "<identifier>",
-        "interactive": "<interactive>",
-        "interactive_name": "<interactive_name>",
-        "interactive_type": "<interactive_type>",
+        "interactive": <interactive>,
         "language": "<language>",
         "original_post_id": "<original_post_id>",
         "parent": "<parent>",

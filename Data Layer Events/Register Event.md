@@ -10,7 +10,6 @@ dataLayer.push({
   "event": "register_event",
   "detailed_event": "Register Event",
     "event_data": {
-        "event_count": "<event_count>",
         "event_name": "<event_name>",
         "identifier": "<identifier>"
     }

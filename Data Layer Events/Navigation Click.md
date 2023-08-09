@@ -18,7 +18,9 @@ dataLayer.push({
         "format": "<format>",
         "historical_url": "<historical_url>",
         "language": "<language>",
+        "module_link": "<module_link>",
         "module_name": "<module_name>",
+        "module_text": "<module_text>",
         "original_post_id": "<original_post_id>",
         "parent": "<parent>",
         "post_id": "<post_id>",
@@ -29,7 +31,6 @@ dataLayer.push({
         "subtype": "<subtype>",
         "tag_id": "<tag_id>",
         "tags": "<tags>",
-        "template": "<template>",
         "topic": "<topic>",
         "type": "<type>",
         "word_count": "<word_count>"
@@ -49,7 +50,9 @@ dataLayer.push({
 |event_data.format|string|Post type|Page, Landing Page, Article, Event, Collection, Book and News|||||||
 |event_data.historical_url|string|URL of post from historical site|\/research\/what-caused-the-u-s-pandemic-era-inflation\/|||||||
 |event_data.language|string|Language in which the content is viewed|en|||||||
+|event_data.module_link|string|URL for module|https:\/\/www.brookings.edu\/articles\/tracking-the-invisible-primary-money-cant-buy-a-presidential-nomination\/|||||||
 |event_data.module_name|string|Name of content module on homepage. e.g. Hero, Events, Latest Research|hero, events, latest research|||||||
+|event_data.module_text|string|Captures the readable text \(either article headline, menu name, or other call-to-action\) in a module||||||||
 |event_data.original_post_id|string|Original Post ID from historical site|20619|||||||
 |event_data.parent|string|"Parent" dropdown in the Post Options panel of the Wordpress Editor UI|Events, Experts, Home|||||||
 |event_data.post_id|string|Unique content identifier|617631|||||||
@@ -60,7 +63,6 @@ dataLayer.push({
 |event_data.subtype|string|Subtype of post|Op-ed, Podcast, Testimony|||||||
 |event_data.tag_id|string|ID for distinct tag in Wordpress||||||||
 |event_data.tags|string|From Wordpress Post Editor under the "Tags" dropdown within the format dialogue. Covers "Series", "Blog".|17 Rooms Podcast, Africa in Focus|||||||
-|event_data.template|string|Template type in Wordpress|Research & Commentary Landing|||||||
 |event_data.topic|string|List of comma separated themes that can be shared between programs|Colombia, Global Economy|||||||
 |event_data.type|string|Type of post|Commentary, Research|||||||
 |event_data.word_count|string|Total word count for content|389|||||||
