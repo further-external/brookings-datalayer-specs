@@ -19,6 +19,7 @@ dataLayer.push({
         "historical_url": "<historical_url>",
         "language": "<language>",
         "module_link": "<module_link>",
+        "module_campaign": "<module_campaign>",
         "module_name": "<module_name>",
         "module_text": "<module_text>",
         "original_post_id": "<original_post_id>",
@@ -50,6 +51,7 @@ dataLayer.push({
 |event_data.format|string|Post type|Page, Landing Page, Article, Event, Collection, Book and News|||||||
 |event_data.historical_url|string|URL of post from historical site|\/research\/what-caused-the-u-s-pandemic-era-inflation\/|||||||
 |event_data.language|string|Language in which the content is viewed|en|||||||
+|event_data.module_campaign|string|Associates CTA to a particular module campaign|Election 2024|||||||
 |event_data.module_link|string|URL for module|https:\/\/www.brookings.edu\/articles\/tracking-the-invisible-primary-money-cant-buy-a-presidential-nomination\/|||||||
 |event_data.module_name|string|Name of content module on homepage. e.g. Hero, Events, Latest Research|hero, events, latest research|||||||
 |event_data.module_text|string|Captures the readable text \(either article headline, menu name, or other call-to-action\) in a module||||||||
