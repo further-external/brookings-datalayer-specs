@@ -12,11 +12,11 @@ dataLayer.push({
   "detailed_event": "Page Load Started",
     "event_data": {
         "archived": <archived>,
-        "author": "<author>",
         "author_id": "<author_id>",
         "author_type": "<author_type>",
         "center": "<center>",
         "chart_id": "<chart_id>",
+        "content_author": "<content_author>",
         "content_type": "<content_type>",
         "email_subscribers": <email_subscribers>,
         "historical_url": "<historical_url>",
@@ -50,11 +50,11 @@ dataLayer.push({
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.archived|boolean|Whether the content has been archived|Yes, No|||||||
-|event_data.author|string|The expert\(s\) who have created the content; can include a comma separated list of authors|Sandra Rozo, Hernan Winkler|||||||
 |event_data.author_id|string|ID for distinct author in Wordpress||||||||
 |event_data.author_type|string|Describes the type of author|Guest Author, Expert, Leadership|||||||
 |event_data.center|string|Collection of topics and fellows organized under a program|The Katzmann Initiative|||||||
 |event_data.chart_id|string|From Data Wrapper||||||||
+|event_data.content_author|string|The expert\(s\) who have created the content; can include a comma separated list of authors|Sandra Rozo, Hernan Winkler|||||||
 |event_data.content_type|string|Captures the content category like post, essay, or research|post|||||||
 |event_data.email_subscribers|integer|Boolean value to segment users who have subscribed to a newsletter|yes|||||||
 |event_data.historical_url|string|URL of post from historical site|\/research\/what-caused-the-u-s-pandemic-era-inflation\/|||||||
@@ -76,7 +76,7 @@ dataLayer.push({
 |event_data.word_count|string|Total word count for content|389|||||||
 |page_data.language|string|The language of the current page, usually pulled from the &lt;html&gt; tag lang attribute.|en-us, en-gb, ch-cn, fr-ca, fr-fr|||||||
 |page_data.name|string|Captures the name of the page the user is on|product - XYZ123, Mens - Tops - Sweaters, Order Confirmation|||||||
-|page_data.page_location|string|The URL of the page currently being viewed. This value will include the full, unaltered URL of the page\/screen the user is currently viewing, including query parameters, fragments, etc., for example https:\/\/www.example.com\/home?user=true&audience=test\#aboutus.|https:\/\/www.example.com\/home?user=true&audience=test\#aboutus|||||||
+|page_data.page_location|string|Use this only if you need to report Page URLs different from those that appear in the address bar of the browser, for example redacting PII, providing page paths when none exist for SPAs, etc. Captures the URL of the page currently being viewed. This value will include the full, unaltered URL of the page\/screen the user is currently viewing, including query parameters, fragments, etc., for example https:\/\/www.example.com\/home?user=true&audience=test\#aboutus.|https:\/\/www.example.com\/home?user=true&audience=test\#aboutus|||||||
 
 
 
