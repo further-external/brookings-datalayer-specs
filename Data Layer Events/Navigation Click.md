@@ -11,13 +11,13 @@ dataLayer.push({
   "detailed_event": "Navigation Click",
     "event_data": {
         "archived": <archived>,
-        "author": "<author>",
         "author_id": "<author_id>",
         "author_type": "<author_type>",
         "center": "<center>",
+        "content_author": "<content_author>",
+        "content_language": "<content_language>",
         "format": "<format>",
         "historical_url": "<historical_url>",
-        "language": "<language>",
         "module_link": "<module_link>",
         "module_name": "<module_name>",
         "module_text": "<module_text>",
@@ -43,13 +43,13 @@ dataLayer.push({
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.archived|boolean|Whether the content has been archived|Yes, No|||||||
-|event_data.author|string|The expert\(s\) who have created the content; can include a comma separated list of authors|Sandra Rozo, Hernan Winkler|||||||
 |event_data.author_id|string|ID for distinct author in Wordpress||||||||
 |event_data.author_type|string|Describes the type of author|Guest Author, Expert, Leadership|||||||
 |event_data.center|string|Collection of topics and fellows organized under a program|The Katzmann Initiative|||||||
+|event_data.content_author|string|The expert\(s\) who have created the content; can include a comma separated list of authors|Sandra Rozo, Hernan Winkler|||||||
+|event_data.content_language|string|Language in which the content is viewed|en|||||||
 |event_data.format|string|Post type|Page, Landing Page, Article, Event, Collection, Book and News|||||||
 |event_data.historical_url|string|URL of post from historical site|\/research\/what-caused-the-u-s-pandemic-era-inflation\/|||||||
-|event_data.language|string|Language in which the content is viewed|en|||||||
 |event_data.module_link|string|URL for module|https:\/\/www.brookings.edu\/articles\/tracking-the-invisible-primary-money-cant-buy-a-presidential-nomination\/|||||||
 |event_data.module_name|string|Name of content module on homepage. e.g. Hero, Events, Latest Research|hero, events, latest research|||||||
 |event_data.module_text|string|Captures the readable text \(either article headline, menu name, or other call-to-action\) in a module||||||||
