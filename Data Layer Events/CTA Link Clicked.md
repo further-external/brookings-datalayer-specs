@@ -11,17 +11,17 @@ dataLayer.push({
   "detailed_event": "CTA Link Clicked",
     "event_data": {
         "archived": <archived>,
-        "author": "<author>",
         "author_id": "<author_id>",
         "center": "<center>",
         "chart_id": "<chart_id>",
+        "content_author": "<content_author>",
+        "content_language": "<content_language>",
         "content_type": "<content_type>",
         "email_subscribers": <email_subscribers>,
         "format": "<format>",
         "historical_url": "<historical_url>",
         "identifier": "<identifier>",
         "interactive": <interactive>,
-        "language": "<language>",
         "original_post_id": "<original_post_id>",
         "parent": "<parent>",
         "post_id": "<post_id>",
@@ -46,17 +46,17 @@ dataLayer.push({
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.archived|boolean|Whether the content has been archived|Yes, No|||||||
-|event_data.author|string|The expert\(s\) who have created the content; can include a comma separated list of authors|Sandra Rozo, Hernan Winkler|||||||
 |event_data.author_id|string|ID for distinct author in Wordpress||||||||
 |event_data.center|string|Collection of topics and fellows organized under a program|The Katzmann Initiative|||||||
 |event_data.chart_id|string|From Data Wrapper||||||||
+|event_data.content_author|string|The expert\(s\) who have created the content; can include a comma separated list of authors|Sandra Rozo, Hernan Winkler|||||||
+|event_data.content_language|string|Language in which the content is viewed|en|||||||
 |event_data.content_type|string|Captures the content category like post, essay, or research|post|||||||
 |event_data.email_subscribers|integer|Boolean value to segment users who have subscribed to a newsletter|yes|||||||
 |event_data.format|string|Post type|Page, Landing Page, Article, Event, Collection, Book and News|||||||
 |event_data.historical_url|string|URL of post from historical site|\/research\/what-caused-the-u-s-pandemic-era-inflation\/|||||||
 |event_data.identifier|string|Captures the ID associated with CTA links used.|act now, cancel, ok, 3456, 8765|||||||
 |event_data.interactive|boolean|Whether it is interactive content|Yes, No|||||||
-|event_data.language|string|Language in which the content is viewed|en|||||||
 |event_data.original_post_id|string|Original Post ID from historical site|20619|||||||
 |event_data.parent|string|"Parent" dropdown in the Post Options panel of the Wordpress Editor UI|Events, Experts, Home|||||||
 |event_data.post_id|string|Unique content identifier|617631|||||||
