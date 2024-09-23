@@ -1,4 +1,4 @@
-# CTA Link Clicked
+# Interactive Click
 
 ### 
 
@@ -8,7 +8,7 @@ window.dataLayer = window.dataLayer || [];
 dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
   "event": "interactive_click",
-  "detailed_event": "CTA Link Clicked",
+  "detailed_event": "Interactive Clicked",
     "event_data": {
         "archived": <archived>,
         "author": "<author>",
