@@ -58,6 +58,8 @@ dataLayer.push({
 |event_data.historical_url|string|URL of post from historical site|\/research\/what-caused-the-u-s-pandemic-era-inflation\/|||||||
 |event_data.identifier|string|Captures the ID associated with CTA links used.|act now, cancel, ok, 3456, 8765|||||||
 |event_data.interactive|boolean|Whether it is interactive content|Yes, No|||||||
+|event_data.interactive_name|string|Name of interactive; If multiple exist on a page, ensure they are specific to each visualization|Early Childhood Education|||||||
+|event_data.interactive_type|string|Category of interactive|Map, Calculator|||||||
 |event_data.language|string|Language in which the content is viewed|en|||||||
 |event_data.original_post_id|string|Original Post ID from historical site|20619|||||||
 |event_data.parent|string|"Parent" dropdown in the Post Options panel of the Wordpress Editor UI|Events, Experts, Home|||||||
