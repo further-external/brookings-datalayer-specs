@@ -19,8 +19,8 @@ dataLayer.push({
         "content_type": "<content_type>",
         "format": "<format>",
         "historical_url": "<historical_url>",
-        "identifier": "<identifier>",
         "interactive": "<interactive>",
+        "interactive_element": "<interactive_element>",
         "interactive_name": "<interactive_name>",
         "interactive_type": "<interactive_type>",
         "language": "<language>",
@@ -56,8 +56,10 @@ dataLayer.push({
 |event_data.email_subscribers|integer|Boolean value to segment users who have subscribed to a newsletter|yes|||||||
 |event_data.format|string|Post type|Page, Landing Page, Article, Event, Collection, Book and News|||||||
 |event_data.historical_url|string|URL of post from historical site|\/research\/what-caused-the-u-s-pandemic-era-inflation\/|||||||
-|event_data.identifier|string|Captures the ID associated with CTA links used.|act now, cancel, ok, 3456, 8765|||||||
 |event_data.interactive|boolean|Whether it is interactive content|Yes, No|||||||
+|event_data.interactive_element|string|Identifies the name of the element that was interacted with|Map Filter, Map_Country-Zimbabwe|||||||
+|event_data.interactive_name|string|Name of interactive; If multiple exist on a page, ensure they are specific to each visualization|Early Childhood Education|||||||
+|event_data.interactive_type|string|Category of interactive|Map, Calculator|||||||
 |event_data.language|string|Language in which the content is viewed|en|||||||
 |event_data.original_post_id|string|Original Post ID from historical site|20619|||||||
 |event_data.parent|string|"Parent" dropdown in the Post Options panel of the Wordpress Editor UI|Events, Experts, Home|||||||
@@ -74,6 +76,7 @@ dataLayer.push({
 |event_data.topic|string|List of comma separated themes that can be shared between programs|Colombia, Global Economy|||||||
 |event_data.type|string|Type of post|Commentary, Research|||||||
 |event_data.word_count|string|Total word count for content|389|||||||
+
 
 
 
