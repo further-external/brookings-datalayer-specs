@@ -9,18 +9,20 @@ dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
   "event": "interactive_click",
   "detailed_event": "Interactive Click",
-    "event_data": {
-        "archived": <archived>,
+     "event_data": {
+        "archived": "<archived>",
         "author": "<author>",
         "author_id": "<author_id>",
         "center": "<center>",
+        "chart_name": "<chart_name>",
         "chart_id": "<chart_id>",
         "content_type": "<content_type>",
-        "email_subscribers": <email_subscribers>,
         "format": "<format>",
         "historical_url": "<historical_url>",
         "identifier": "<identifier>",
-        "interactive": <interactive>,
+        "interactive": "<interactive>",
+        "interactive_name": "<interactive_name>",
+        "interactive_type": "<interactive_type>",
         "language": "<language>",
         "original_post_id": "<original_post_id>",
         "parent": "<parent>",
@@ -72,6 +74,8 @@ dataLayer.push({
 |event_data.topic|string|List of comma separated themes that can be shared between programs|Colombia, Global Economy|||||||
 |event_data.type|string|Type of post|Commentary, Research|||||||
 |event_data.word_count|string|Total word count for content|389|||||||
+
+
 
 
 
