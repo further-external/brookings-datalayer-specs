@@ -2,6 +2,13 @@
 
 ### 
 
+## Site Sections
+
+| Description | GA4 Event | GA4 Custom Dimension |
+| --- | --- | --- |
+| Main Menu | navigation_click | module_name=`primary`| 
+
+
 ## Javascript Code
 ```js
 window.dataLayer = window.dataLayer || [];
