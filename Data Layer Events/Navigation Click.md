@@ -7,6 +7,14 @@
 | Description | GA4 Event | GA4 Custom Dimension |
 | --- | --- | --- |
 | Main Menu | navigation_click | module_name=`primary`| 
+| Main Menu | navigation_click | module_name=`secondary`| 
+| Main Menu | navigation_click | module_name=`featured_posts`| 
+| Main Menu | navigation_click | module_name=`topics_submenu`| 
+| Main Menu | navigation_click | module_name=`regions_submenu`| 
+| In-Page Sections: Table of Contents | navigation_click | module_name=`table_of_contents_static`| 
+| In-Page Sections: Table of Contents (Sticky/Flyout) | navigation_click | module_name=`table_of_contents_sticky`| 
+| In-Page Sections: Tabs | navigation_click | module_name=`tabs`| 
+
 
 
 ## Javascript Code
@@ -76,6 +84,31 @@ dataLayer.push({
 |event_data.type|string|Type of post|Commentary, Research|||||||
 |event_data.word_count|string|Total word count for content|389|||||||
 
+## Module Examples
 
+Secondary Navigation
+<img width="1012" alt="Screen Shot 2025-03-19 at 11 23 54 PM" src="https://github.com/user-attachments/assets/bdd922b3-8fca-47e7-b359-66b1b82b3827" />
 
+Featured Posts
 
+<img width="1393" alt="Screen Shot 2025-03-19 at 11 15 25 PM" src="https://github.com/user-attachments/assets/2105521a-a08e-4331-b393-9f7750c30d01" />
+
+Topics Submenu
+
+<img width="1761" alt="Screen Shot 2025-03-19 at 11 15 32 PM" src="https://github.com/user-attachments/assets/48859a17-52b4-4783-9bae-ae1c718ea4bd" />
+
+Regions Submenu
+
+<img width="1761" alt="Screen Shot 2025-03-19 at 11 15 32 PM" src="https://github.com/user-attachments/assets/98bd9a27-87ac-472e-9536-32298d7311a4" />
+
+Table of Contents (Static)
+
+<img width="249" alt="Screen Shot 2025-03-19 at 11 32 28 PM" src="https://github.com/user-attachments/assets/a0bd8f1a-35dd-427b-b145-6398f9f0ea53" />
+
+Table of Contents (Sticky or Flyout)
+
+<img width="305" alt="Screen Shot 2025-03-19 at 11 32 20 PM" src="https://github.com/user-attachments/assets/a070f6e2-f2f1-4192-aeda-11e9c0091c4e" />
+
+Tabs
+
+<img width="1655" alt="Screen Shot 2025-03-19 at 11 33 11 PM" src="https://github.com/user-attachments/assets/f319d5b6-0ec1-4913-b167-e2c5eb42b2f6" />
