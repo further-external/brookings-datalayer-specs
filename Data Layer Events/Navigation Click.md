@@ -14,8 +14,9 @@
 | In-Page Sections: Table of Contents | navigation_click | module_name=`table_of_contents_static`| 
 | In-Page Sections: Table of Contents (Sticky/Flyout) | navigation_click | module_name=`table_of_contents_sticky`| 
 | In-Page Sections: Tabs | navigation_click | module_name=`tabs`| 
-| In-Page Sections: Read More On - Right Rail | navigation_click | module_name=`read_more_from_widget`| 
-| In-Page Sections: Read More On - Right Rail | navigation_click | module_name=`read_more_footer`| 
+| In-Page Sections: Read More On - Widget | navigation_click | module_name=`read_more_widget`| 
+| In-Page Sections: Read More On - Right Rail | navigation_click | module_name=`read_more_rail`| 
+| In-Page Sections: Read More On - Footer | navigation_click | module_name=`read_more_footer`| 
 
 ## Javascript Code
 ```js
